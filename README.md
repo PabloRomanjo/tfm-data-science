@@ -13,4 +13,13 @@ Los resultados de este trabajo sugieren que el mejor modelo supervisado para dif
 
 De esta manera, podemos concluir que los datos de hidroximetilación fueron útiles para la identificación de biomarcadores del CCR, obteniendo resultados prometedores mediante aprendizaje automático supervisado. No obstante, estos resultados deben ser interpretados como preliminares, necesitándose una validación en una cohorte externa y un análisis molecular de los biomarcadores señalados.    
 
-## 
+## Descripciøn de archivos
+
+En este repositorio se encuentran los archivos y referencias necesarias para replicar los resultados descritos en la memoria final del Trabajo de Fin de Máster titulado Evaluación de la capacidad predictiva de modelos de aprendizaje supervisado para la clasificación de pacientes con cáncer colorrectal". Esta memoria se puede encontrar tanto en el repositorio instuticional de la UOC (https://openaccess.uoc.edu/) como en este repositorio (/memoria).
+
+En la raiz de este directorio podemos encontrar:
+
+1. **make_dataset.py**: Este archivo tiene el código necesario para transformar los datos crudos en un set de datos listo para ser utilizado por los algoritmos de aprendizaje automático. Los datos crudos utilizados se deben descargar desde Zenodo (https://zenodo.org/record/5170265) y copiar en /raw_data. El set de datos generado al utilizar este script se puede encontrar en https://zenodo.org/record/8061669.
+2. **eda.py**: Script para visualizar los el set de datos generado. Primer contacto con las características de los datos. Las figuras generadas con este script se pueden encontrar en /figures_eda.
+3. **supervised_crc_binary.py**: En este archivo se configuran los modelos supervisados para la clasificación de las muestras en CCR y control, de acuerdo a sus valores de hidroximetilación en enhancers. El archivo models.py reune los diferentes modelos entrenados con los hiperparámetros ya ajustados. Las figuras generadas con este script se pueden encontrar en /figures_models.
+4. **unsurpervised_crc.py**: En este script se prueba la validez de K-means para separar los pacientes con CCR en diferentes clusters. Las figuras generadas con este script se pueden encontrar en /figures_unsupervised.
