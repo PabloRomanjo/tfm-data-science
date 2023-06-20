@@ -13,7 +13,7 @@ from sklearn.metrics import silhouette_score, calinski_harabasz_score
 dataset = pd.read_csv('datasets/dataset_enhancer_crc_aa_c_ml.csv', sep=',')
 
 # Cargamos los 400 top features (proveniente de feature importance SVM lineal)
-topenhancer = pd.read_csv('top400enhancers.csv', sep=',')
+topenhancer = pd.read_csv('other_data/top400enhancers.csv', sep=',')
 topenhancer_list = list(topenhancer['top400'])
 
 # Cargamos los genes asociados a enhancers
