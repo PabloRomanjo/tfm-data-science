@@ -13,3 +13,4 @@ Los resultados de este trabajo sugieren que el mejor modelo supervisado para dif
 
 De esta manera, podemos concluir que los datos de hidroximetilación fueron útiles para la identificación de biomarcadores del CCR, obteniendo resultados prometedores mediante aprendizaje automático supervisado. No obstante, estos resultados deben ser interpretados como preliminares, necesitándose una validación en una cohorte externa y un análisis molecular de los biomarcadores señalados.    
 
+## 
