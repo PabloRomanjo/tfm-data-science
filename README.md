@@ -13,7 +13,7 @@ Los resultados de este trabajo sugieren que el mejor modelo supervisado para dif
 
 De esta manera, podemos concluir que los datos de hidroximetilación fueron útiles para la identificación de biomarcadores del CCR, obteniendo resultados prometedores mediante aprendizaje automático supervisado. No obstante, estos resultados deben ser interpretados como preliminares, necesitándose una validación en una cohorte externa y un análisis molecular de los biomarcadores señalados.    
 
-## Descripciøn de archivos
+## Descripción de archivos
 
 En este repositorio se encuentran los archivos y referencias necesarias para replicar los resultados descritos en la memoria final del Trabajo de Fin de Máster titulado Evaluación de la capacidad predictiva de modelos de aprendizaje supervisado para la clasificación de pacientes con cáncer colorrectal". Esta memoria se puede encontrar tanto en el repositorio instuticional de la UOC (https://openaccess.uoc.edu/) como en este repositorio (/memoria).
 
