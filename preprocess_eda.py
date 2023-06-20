@@ -5,7 +5,7 @@ from plotly.subplots import make_subplots
 
 
 # Cargamos dataset
-crc_dataset = pd.read_csv('datasets/dataset_enhancer_crc_aa_c.csv', sep=',')
+crc_dataset = pd.read_csv('datasets/dataset_enhancer_crc_aa_c_ml.csv', sep=',')
 
 # Comprobamos los valores que toman las features categóricas para buscar posibles fallos
 crc_dataset_cat = crc_dataset.select_dtypes(include=['object'])
